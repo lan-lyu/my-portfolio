@@ -2,17 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="author" content="Lan Lyu">
+    <meta name="description" content="Hello! Here is Lan. Welcome to my portfolio!">
+    <title>Lan's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="icon" href="/images/icon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url('/images/bg.JPG');
+            background-repeat: no-repeat;
+        }
+    </style>
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+
+
+
+    <div class="main">
+        <h1 style="color:#185164"> Lan Lyu </h1>
+        <h3 style="color:#494c4d"> Agnès Varda once said:<br>
+             “This is all you need in life: 
+             a computer, a camera, and a cat.”
+        </h3>
+        <img src="/images/portfolio.png"  alt="content" usemap="#contentmap"/>
+        <map name="contentmap">
+            <area shape="rect" coords="0,0,200,200" href="https://github.com/Alyssa14411" alt="my github">
+            <area shape="rect" coords="200,0,400,200" href="photo.html" alt="my photo">
+            <area shape="rect" coords="400,0,600,200" href="selfintro.html" alt="my story">
+        </map>
+
     </div>
+
   </body>
 </html>

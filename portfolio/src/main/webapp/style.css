@@ -1,9 +1,82 @@
+  
 #content {
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  width: 1050px;
 }
 
 #greeting-container {
   margin-top: 20px;
+}
+
+p {
+  font-family: 'futura';
+  font-size: 16px;
+}
+
+a{
+  font-family: 'futura';
+  font-size: 16px;
+  color:cornflowerblue;
+}
+
+
+li a {
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 25px;
+    color: #000;
+}
+
+#background {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    height: 320px;
+    line-height: 200px;
+    z-index: -5;
+    background-image: url(/images/background.png);
+    background-size: 100%;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-color: rgba(100,100,100,0.5);
+    background-blend-mode: darken;
+}
+
+.about-tumblr-showcase {
+    font-size: 16px;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    animation: aboutTumblrIntro .7s ease-out .5s;
+    animation-fill-mode: backwards;
+}
+
+.dash_b_form_container, .about-tumblr-showcase.show-welcome .dash_b_form_container {
+    display: block;
+    animation: signupFormIntro .3s ease-out .7s;
+    animation-fill-mode: backwards;
+}
+.main{
+	text-align: center; /*让div内部文字居中*/
+	background-color: #d7e4e8ba;
+	border-radius: 0px;
+	width: 600px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
